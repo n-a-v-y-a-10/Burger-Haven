@@ -1,0 +1,28 @@
+html,body{
+    margin: 0;
+    background-color: #F6F1E9;
+}
+
+.privacy{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #4F200D;
+}   
+h1{
+    text-align: center;
+}
+/* Additional Styling */
+p {
+    line-height: 1.6; /* Adjust line spacing for better readability */
+}
+
+h2, h3 {
+    color: #FF8400; /* Different color for subheadings */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .privacy {
+        padding: 5%;
+    }
+}
