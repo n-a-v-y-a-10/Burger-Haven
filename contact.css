@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border-box used for predictable behavior */
+    font-family: 'Poppins', sans-serif;
+}
+body{ 
+    background-color: #F6F1E9;
+    width: 100%;
+    /* height: 100%; */
+}
+.bg{
+    background: url(../images/contact-burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    /* padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%; */
+}
+#logo{
+    font-size: 30px;
+    margin-left: 0.1rem;
+    color: #4F200D;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #4F200D;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    /* to style the shop name */
+}
+#logo img{
+    margin-bottom: 10px;
+    /* to align the icon with the burger haven name */
+}
+.nav-item{
+    margin-left: 30px;
+    /* to maintain spacing between each li */
+}
+.nav-item .nav-link{
+    color: #4F200D;
+    font-weight: bold;   
+}
+#home{
+    color: #4F200D;
+}
+#home:hover{
+    color:#FFD93D;
+}
+.nav-item .nav-link:hover{
+    color: #FFD93D;
+    background-color: #4F200D;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px black;
+}
+svg{
+    margin-left: 20px;
+    /* to ensure spacing between icons */
+}
+.navbar-toggler  {  
+    border: none;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+.navbar-toggler:hover{
+    background-color: none;
+}
+.icons{
+    padding-left: 10px;
+    /* to move icons to the left to align with list elements in mobile viewport */
+}
+#contact{
+    color: #FF8400;
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background-color: #F6F1E9;
+    /* transform: translate(50%, 10%); */
+    margin-top: 5%;
+    margin-bottom: 20%;
+    padding: 30px 40px; 
+    border-radius: 8px;
+    text-align: center;
+}
+.contact-form h1{
+    /* margin-bottom: 3%; */
+    color: #4F200D;
+    height: fit-content;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form label{
+    padding: 2%;
+    padding-left: 0;
+    text-align: left;
+    color: #4F200D;
+}
+button{
+    margin-top: 5%;
+    background-color: #4F200D;
+    color: #F6F1E9;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 7px;
+    width: 7rem;
+    height: 2.5rem;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: #FF8400;
+    color: #4F200D;
+}
